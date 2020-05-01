@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Love-Card/precache-manifest.c07bb53eeb3bcac0de369ab650e277d3.js"
+  "/Love-Card/precache-manifest.05608731b8b0d2ff414dd81c1a87f078.js"
 );
 
 self.addEventListener('message', (event) => {

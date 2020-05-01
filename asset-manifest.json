@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Love-Card/static/css/main.722e49c6.chunk.css",
-    "main.js": "/Love-Card/static/js/main.d21732cc.chunk.js",
-    "main.js.map": "/Love-Card/static/js/main.d21732cc.chunk.js.map",
+    "main.js": "/Love-Card/static/js/main.994ea91a.chunk.js",
+    "main.js.map": "/Love-Card/static/js/main.994ea91a.chunk.js.map",
     "runtime-main.js": "/Love-Card/static/js/runtime-main.e6f329d9.js",
     "runtime-main.js.map": "/Love-Card/static/js/runtime-main.e6f329d9.js.map",
     "static/js/2.6e577c8a.chunk.js": "/Love-Card/static/js/2.6e577c8a.chunk.js",
     "static/js/2.6e577c8a.chunk.js.map": "/Love-Card/static/js/2.6e577c8a.chunk.js.map",
     "index.html": "/Love-Card/index.html",
-    "precache-manifest.c07bb53eeb3bcac0de369ab650e277d3.js": "/Love-Card/precache-manifest.c07bb53eeb3bcac0de369ab650e277d3.js",
+    "precache-manifest.05608731b8b0d2ff414dd81c1a87f078.js": "/Love-Card/precache-manifest.05608731b8b0d2ff414dd81c1a87f078.js",
     "service-worker.js": "/Love-Card/service-worker.js",
     "static/css/main.722e49c6.chunk.css.map": "/Love-Card/static/css/main.722e49c6.chunk.css.map",
     "static/js/2.6e577c8a.chunk.js.LICENSE.txt": "/Love-Card/static/js/2.6e577c8a.chunk.js.LICENSE.txt",
@@ -58,6 +58,6 @@
     "static/js/runtime-main.e6f329d9.js",
     "static/js/2.6e577c8a.chunk.js",
     "static/css/main.722e49c6.chunk.css",
-    "static/js/main.d21732cc.chunk.js"
+    "static/js/main.994ea91a.chunk.js"
   ]
 }

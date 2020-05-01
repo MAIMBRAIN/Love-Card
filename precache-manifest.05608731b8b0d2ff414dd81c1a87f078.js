@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18adcdc7c258dca455940d111028db7b",
+    "revision": "6bdb6f1afedfbc507e72868421bbca8f",
     "url": "/Love-Card/index.html"
   },
   {
-    "revision": "d8ed7e344e0bd2365d98",
+    "revision": "59aa97383dfaef559715",
     "url": "/Love-Card/static/css/main.722e49c6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Love-Card/static/js/2.6e577c8a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8ed7e344e0bd2365d98",
-    "url": "/Love-Card/static/js/main.d21732cc.chunk.js"
+    "revision": "59aa97383dfaef559715",
+    "url": "/Love-Card/static/js/main.994ea91a.chunk.js"
   },
   {
     "revision": "5e8c12d81d6f8b90909a",
