@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Love-Card/static/css/main.538360bf.chunk.css",
+    "main.css": "/Love-Card/static/css/main.72bfa77b.chunk.css",
     "main.js": "/Love-Card/static/js/main.be0acb15.chunk.js",
     "main.js.map": "/Love-Card/static/js/main.be0acb15.chunk.js.map",
     "runtime-main.js": "/Love-Card/static/js/runtime-main.e6f329d9.js",
@@ -8,9 +8,9 @@
     "static/js/2.6e577c8a.chunk.js": "/Love-Card/static/js/2.6e577c8a.chunk.js",
     "static/js/2.6e577c8a.chunk.js.map": "/Love-Card/static/js/2.6e577c8a.chunk.js.map",
     "index.html": "/Love-Card/index.html",
-    "precache-manifest.eb7056b302b4942cce9bcea9822226d8.js": "/Love-Card/precache-manifest.eb7056b302b4942cce9bcea9822226d8.js",
+    "precache-manifest.71af8cea30f2409c1ccbde1ecc56be07.js": "/Love-Card/precache-manifest.71af8cea30f2409c1ccbde1ecc56be07.js",
     "service-worker.js": "/Love-Card/service-worker.js",
-    "static/css/main.538360bf.chunk.css.map": "/Love-Card/static/css/main.538360bf.chunk.css.map",
+    "static/css/main.72bfa77b.chunk.css.map": "/Love-Card/static/css/main.72bfa77b.chunk.css.map",
     "static/js/2.6e577c8a.chunk.js.LICENSE.txt": "/Love-Card/static/js/2.6e577c8a.chunk.js.LICENSE.txt",
     "static/media/P_20190625_231730_BF.jpg": "/Love-Card/static/media/P_20190625_231730_BF.ad3a13fc.jpg",
     "static/media/Snapchat-1003475239.jpg": "/Love-Card/static/media/Snapchat-1003475239.ca02aa2d.jpg",
@@ -57,7 +57,7 @@
   "entrypoints": [
     "static/js/runtime-main.e6f329d9.js",
     "static/js/2.6e577c8a.chunk.js",
-    "static/css/main.538360bf.chunk.css",
+    "static/css/main.72bfa77b.chunk.css",
     "static/js/main.be0acb15.chunk.js"
   ]
 }
