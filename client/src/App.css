@@ -1,3 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #454550;
+    background-color: khaki;
+    perspective: 2500px;
+    overflow: hidden;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    overflow: hidden;
+}
+button {
+    background-color: orange;
+    height: 800px;
+    margin-left: 300px;
+    margin-right: 425px;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+img {
+    height: 400px;
+    width: 200px;
+    border: 4px solid orange;
+    margin: 5px; 
+}
+
+.coverPic, .page1-Img {
+    margin-left: 140px;
+}
+
+.page2-Img, .page4-Img, .page9-Img, .page10-Img, .page11-Img{
+    height: 250px;
+    width: 150px;
+}
+
+.page3-Img, .page6-Img, .page7-Img, .page8-Img {
+    height: 300px;
+    width: 150px;
+}
+
+.page5-Img {
+    height: 350px;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.page9-Img {
+    margin-left: 60px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-content: flex-end;
+    text-align: center;
+}
+
+h4 {
+    margin: 70px;
+    margin-top: 120px;
+}
+
+.hide {
+    visibility: hidden;
+    transition-duration: 3s;
+}
+
+.page {
+    display: inline-block;
+    z-index: 1;  /* the content page should go behind the cover pages */
+    position: fixed;
+
+    /* Size & Position */
+    left: 60%;
+    width: 500px;
+    margin-left: -250px; /* half of width */
+    height: 800px;
+
+    /* Add some styling, so the pages are opaque */ 
+    background-color: #eee;
+    border: 4px solid rgb(120, 120, 120);
+
+    /* Hide backface of each page/side, so we don't see it when turned */
+    backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+
+    /* Set up animation */
+    transition: transform 1.0s ease;
+      -o-transition: transform 1.0s ease;
+      -moz-transition: transform 1.0s ease;
+      -webkit-transition: transform 1.0s ease;
+}
+
+.page.odd {
+    border-left: 4px dotted rgb(169, 169, 169);
+    transform-origin: left center;
+      -o-transform-origin: left center;
+      -ms-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -webkit-transform-origin: left center;
+}
+
+.page.even {
+    border-right: 4px dotted rgb(169, 169, 169);
+    margin-left: -750px;
+    transform-origin: right center;
+      -o-transform-origin: right center;
+      -ms-transform-origin: right center;
+      -moz-transform-origin: right center;
+      -webkit-transform-origin: right center;
+    transform: rotateY(180deg); /* even pages start rotated (closed book) */
+      -o-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+}
+
+.page.odd.turn {
+    transform: rotateY(-180deg);
+      -o-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      -moz-transform: rotateY(-180deg);
+      -webkit-transform: rotateY(-180deg);
+}
+.page.even.turn {
+    transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -webkit-transform: rotateY(0deg);
+}
+
+#cover {
+    z-index: 3;
+}
+#cover_back {
+    z-index: 2;
 }
